@@ -1,3 +1,5 @@
+const config = require(`../config/bot.js`)
+
 module.exports = {
 
     event: {
