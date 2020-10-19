@@ -9,7 +9,7 @@ module.exports = {
       },
       
     start: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
+      perms: ":warning: Kamu kekuarangan izin, izin diperintah ini adalah `Manage Message` :",
       channel: ":warning: Mohon isikan teks `#salon` untuk memulaikan giveaway.",
       duration: ":warning: Harap sebutkan durasi giveaway.  Argumen tersedia `s` untuk detik,` m` untuk menit, `h` untuk jam dan` d` untuk hari.  Contoh `10m`.",
       argswinners: ":warning: Harap sebutkan jumblah pemenang. Contoh `1` untuk satu pemenang atau `2` untuk 2 pemenang.",
@@ -37,14 +37,14 @@ module.exports = {
     },
 
     help: {
-      title: "Help panel",
-      description: "Find the list of my orders on this panel, obligatory arguments `<>`.",
+      title: "Panel Bantuan",
+      description: "Temukan daftar pesanan saya di panel ini, argumen wajib `<>`. ",
 
       start: (message) => `**${config.prefix}start**`,
-      startdescription: (message) => `This command is used to launch a giveaway.\nUsage \`${config.prefix}start <#salon> <time> <winners> <lot>\`.`,
+      startdescription: (message) => `Perintah Ini Untuk memulaikan Giveaway.\nPenggunaan \`${config.prefix}start <#salon> <time> <winners> <lot>\`.`,
 
       end: (message) => `**${config.prefix}end**`,
-      enddescription: (message) => `This command is used to delete a giveaway.\nUsage \`${config.prefix}end <ID giveaway>\`.`,
+      enddescription: (message) => `Perintah Ini Untuk Menghapus Giveaway.\nPenggunaan \`${config.prefix}end <ID giveaway>\`.`,
 
       reroll: (message) => `**${config.prefix}reroll**`,
       rerolldescription: (message) => `This command is used to restart a giveaway.\nUsage \`${config.prefix}reroll <ID giveaway>\`.`,
