@@ -3,9 +3,9 @@ const config = require(`../config/bot.js`)
 module.exports = {
 
     event: {
-      cmdnotfound: "Command that you want doesn't exist.",
-      mention1: ":wave: Hello my prefix on this guild is ",
-      mention2: "You don't know the usage information yet "
+      cmdnotfound: "Perintah itu yang kamu minta tidak ada.",
+      mention1: ":wave: Halo prefik saya di guild ini adalah ",
+      mention2: "Kamu tidak tahu penggunaan informasi "
       },
       
     start: {
@@ -17,23 +17,23 @@ module.exports = {
       good: ":tada: I launched the giveaway in the living room :",
 
       giveaway: "**GIVEAWAY** 🎁",
-      giveawayEnded: "**GIVEAWAY FINISHED** 🎁",
+      giveawayEnded: "**GIVEAWAY SELESAI** 🎁",
 
-      timeRemaining: "Remaining time : **{duration}** !", 
-      inviteToParticipate: (message) => `Click on ${config.reaction} to participate !`,
-      winMessage: (message) => `${config.reaction} Congratulations, {winners} ! Lot : **{prize}** !`,
+      timeRemaining: "Waktu Tersisa: **{duration}** !", 
+      inviteToParticipate: (message) => `Tekan di ${config.reaction} untuk berpartisipasi !`,
+      winMessage: (message) => `${config.reaction} Selamat!, {winners} ! Banyak : **{prize}** !`,
       embedFooter: "Giveaway",
-      noWinner: "Giveaway cancelled, not enough participants.",
-      hostedBy: "By : {user}",
-      winners: "winner(s)",
-      endedAt: "Finished",
+      noWinner: "Giveaway Digagalkan, karena kurangnya peserta.",
+      hostedBy: "Dari : {user}",
+      winners: "Pemenang",
+      endedAt: "Selesai",
     },
 
    units: {
-      seconds: "second(s)",
-      minutes: "minute(s)",
-      hours: "hour(s)",
-      days: "day(s)",
+      seconds: "detik",
+      minutes: "menit",
+      hours: "jam",
+      days: "hari",
     },
 
     help: {
