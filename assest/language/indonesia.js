@@ -95,7 +95,7 @@ module.exports = {
     },
 
     set: {
-      perms: ":warning: You lack the `manage messages` permission to use this command.",
+      perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini.",
       msg: ":warning: Please indicate a function to be defined `mention` to mention the entire server if a giveaway is running, `logs` to define a room with the giveaway logs, and `role` choose a role so that users who have it can launch giveaways without having permission to manage messages.",
       args: ":warning: Please indicate a function `on` to activate or `off` to disable.",
       erroff: ":warning: This function is already disabled. Try turning it on to see ?",
@@ -125,13 +125,13 @@ module.exports = {
     },
     
     prefix: {
-      title1: "How to changes the prefix?",
-      usage: (client) => `\nPengunaan: ${client.prefix}prefix set <newprefix>\nExample: ${client.prefix}prefix set +\n\nSub-command:\nreset: set the default prefix.\nset: set the prefix of your choice.`,
+      title1: "Bagaimana cara mengubah prefik?",
+      usage: (client) => `\nPengunaan: ${client.prefix}prefix set <newprefix>\nContoh: ${client.prefix}prefix set +\n\nSub-perintah:\nreset: ubah prefik yang biasa.\nset: atur prefik pilihan Anda.`,
       title: "Prefik Baru!",
       error: "❌ |  karakter prefik harus memiliki kurang dari 4",
       description: "Prefix for this server has been set to ",
-      reset: "Prefix for this server has been reset ",
-      perms: `You do not have \`MANAGE_MESSAGES\` permisson to use this command!`,
-      prefix: "Type a new prefix to use it."
+      reset: Prefik untuk server ini telah di setel ulang ",
+      perms: `Kamu tidak memiliki izin \`MANAGE_MESSAGES\` untuk perintah ini`,
+      prefix: "Tuliskan Prefik baru untuk digunakan."
     },
 };
