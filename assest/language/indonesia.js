@@ -10,11 +10,11 @@ module.exports = {
       
     start: {
       perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      channel: ":warning: Please enter a text `#salon` to start the giveaway.",
-      duration: ":warning: Please indicate the duration of the giveaway. Arguments available `s` for seconds, `m` for minutes, `h` hourly and `d` for the days. Example `10m`.",
-      argswinners: ":warning: Please indicate the number of winners. Example `1` for one winner or `2` for two winners.",
-      prize: ":warning: Please indicate the prize to be won. Example `a nitro`.",
-      good: ":tada: I launched the giveaway in the living room :",
+      channel: ":warning: Mohon isikan teks `#salon` untuk memulaikan giveaway.",
+      duration: ":warning: Harap sebutkan durasi giveaway.  Argumen tersedia `s` untuk detik,` m` untuk menit, `h` untuk jam dan` d` untuk hari.  Contoh `10m`.",
+      argswinners: ":warning: Harap sebutkan jumblah pemenang. Contoh `1` untuk satu pemenang atau `2` untuk 2 pemenang.",
+      prize: ":warning: Harap sebutkan hadiah untuk menang. Contoh `sebuah nitro`.",
+      good: ":tada: Aku meluncurkan giveaway di ruang keluarga :",
 
       giveaway: "**GIVEAWAY** 🎁",
       giveawayEnded: "**GIVEAWAY SELESAI** 🎁",
