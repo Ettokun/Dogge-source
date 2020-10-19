@@ -130,7 +130,7 @@ module.exports = {
       title: "Prefik Baru!",
       error: "❌ |  karakter prefik harus memiliki kurang dari 4",
       description: "Prefix for this server has been set to ",
-      reset: Prefik untuk server ini telah di setel ulang ",
+      reset: "Prefik untuk server ini telah di setel ulang ",
       perms: `Kamu tidak memiliki izin \`MANAGE_MESSAGES\` untuk perintah ini`,
       prefix: "Tuliskan Prefik baru untuk digunakan."
     },
