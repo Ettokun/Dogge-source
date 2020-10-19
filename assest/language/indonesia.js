@@ -9,7 +9,7 @@ module.exports = {
       },
       
     start: {
-      perms: ":warning: Kamu kekuarangan izin, izin diperintah ini adalah `Manage Message` :",
+      perms: ":warning: Kamu kekuarangan izin `Manage Message` untuk menggunakan perintah ini atau:",
       channel: ":warning: Mohon isikan teks `#salon` untuk memulaikan giveaway.",
       duration: ":warning: Harap sebutkan durasi giveaway.  Argumen tersedia `s` untuk detik,` m` untuk menit, `h` untuk jam dan` d` untuk hari.  Contoh `10m`.",
       argswinners: ":warning: Harap sebutkan jumblah pemenang. Contoh `1` untuk satu pemenang atau `2` untuk 2 pemenang.",
@@ -47,35 +47,35 @@ module.exports = {
       enddescription: (message) => `Perintah Ini Untuk Menghapus Giveaway.\nPenggunaan \`${config.prefix}end <ID giveaway>\`.`,
 
       reroll: (message) => `**${config.prefix}reroll**`,
-      rerolldescription: (message) => `This command is used to restart a giveaway.\nUsage \`${config.prefix}reroll <ID giveaway>\`.`,
+      rerolldescription: (message) => `Perintah ini untuk memulai ulang giveaway.\nUsage \`${config.prefix}reroll <ID giveaway>\`.`,
 
       edit: (message) => `**${config.prefix}edit**`,
-      editdescription: (message) => `This command is used to modify a giveaway.\nUsage \`${config.prefix}edit <ID giveaway> <winners> <new lot>\`.`,
+      editdescription: (message) => `Perintah ini untuk modifikasi Giveaway.\nUsage \`${config.prefix}edit <ID giveaway> <winners> <new lot>\`.`,
 
       lang: (message) => `**${config.prefix}lang**`,
-      langdescription: (message) => `This command is used to change the language of the bot.\nUsage \`${config.prefix}lang <fr/en>\`.`,
+      langdescription: (message) => `Perintah ini untuk mengubah bahasa bot.\nUsage \`${config.prefix}lang <fr/en>\`.`,
 
       set: (message) => `**${config.prefix}set**`,
-      setdescription: (message) => `This command is used to modify the bot's configurations.\nUsage \`${config.prefix}set <mention/logs/role>\`.`,
+      setdescription: (message) => `Perintah ini untuk modifikasi konfigurasi bot.\nUsage \`${config.prefix}set <mention/logs/role>\`.`,
     
       invite: (message) => `**${config.prefix}invite**`,
-      invitedescription: (message) => `This command is used to get the bot's invitation link.\nUsage \`${config.prefix}invite\`.`
+      invitedescription: (message) => `Perintah ini untuk mendapatkan undangan bot.\nUsage \`${config.prefix}invite\`.`
     },
 
    end: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      errmod: ":warning: An error occurred, maybe this giveaway is already finished or deleted ?",
-      good: ":hourglass_flowing_sand: I'm deleting this contest in :"
+      perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini atau:",
+      msg: ":warning: Mohon isikan ID Giveaway.",
+      err: ":warning: Aku tidak menemukan sesuatu untuk giveaway ini:",
+      errmod: ":warning: terjadi kesalahan, apakah giveaway telah selesai atau terhapus?",
+      good: ":hourglass_flowing_sand: Aku menghapus kontes di:"
     },
 
     reroll: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      good: ":tada: New winner(s) : {winners} ! Congratulations !",
-      parts: ":warning: There weren't enough participants for this giveaway i can't choose."
+      perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini atau :",
+      msg: ":warning: Mohon isikan ID Giveaway.",
+      err: ":warning:  Aku tidak menemukan sesuatu untuk giveaway ini:",
+      good: ":tada: Pemenang Baru : {winners} ! Selamat !",
+      parts: ":warning: mereka tidak cukup peserta untuk giveaway itu , saya tidak bisa memilih."
     },
 
     edit: {
@@ -89,9 +89,9 @@ module.exports = {
     },
 
     lang: {
-      perms: ":warning: You lack the `manage messages` permission to use this command.",
-      msg: ":warning: Please indicate a language to be defined `fr` french and `en` english.",
-      err: ":warning: The chosen language is already the one active on this server. Try another one to see ?"
+      perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini.",
+      msg: ":warning: mohon sebutkan bahasa yang definisikan `fr` bahasa perancis, `en` bahasa inggris dan `id-in` bahasa indonesia.",
+      err: ":warning: satu bahasa ini telah aktif di server ini. Coba yang lain untuk melihat ?"
     },
 
     set: {
@@ -109,19 +109,19 @@ module.exports = {
     },
 
     logs: {
-      raddtitle: "New member",
-      raddmsg1: "The member",
-      raddmsg2: "just joined the giveaway",
-      rremtitle: "Former participant",
-      rremmsg1: "The member",
-      rremmsg2: "just canceled his entry in the giveaway",
+      raddtitle: "Anggota baru",
+      raddmsg1: "Anggota",
+      raddmsg2: "baru saja bergabung dengan giveaway",
+      rremtitle: "mantan peserta",
+      rremmsg1: "anggota",
+      rremmsg2: "baru saja membatalkan entri di giveaway",
     },
 
     invite: {
-      title: "Thank you uwu!", 
-      description: (client) => `Yeay thank you for choosing ${client.user.username}! to add to your server`,
-      server: "Need help joining a support server to get the latest information",
-      clickhere: "click here."
+      title: "Terima Kasih UwU!", 
+      description: (client) => `Yeay terima kasih telah memilih ${client.user.username}! Ke server anda`,
+      server: "Perlu bantuan untuk bergabung dengan server dukungan untuk mendapatkan informasi terbaru",
+      clickhere: "tekan disini."
     },
     
     prefix: {
