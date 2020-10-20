@@ -63,29 +63,29 @@ module.exports = {
     },
 
    end: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      errmod: ":warning: An error occurred, maybe this giveaway is already finished or deleted ?",
-      good: ":hourglass_flowing_sand: I'm deleting this contest in :"
+      perms: ":warning: 당신은 부족 `manage messages` 이 명령 또는 :",
+      msg: ":warning: 경품 ID를 입력하십시오.",
+      err: ":warning:이 경품에 대한 내용을 찾을 수 없습니다.",
+      errmod: ":warning:오류가 발생했습니다.이 경품이 이미 완료되었거나 삭제되었을 수 있습니다?",
+      good: ":hourglass_flowing_sand: 다음에서이 컨테스트를 삭제합니다."
     },
 
     reroll: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      good: ":tada: New winner(s) : {winners} ! Congratulations !",
-      parts: ":warning: There weren't enough participants for this giveaway i can't choose."
+      perms: ":warning: 당신은 부족 `manage messages` 이 명령 또는 :",
+      msg: ":warning: 경품 ID를 입력하십시오.",
+      err: ":warning: 이 경품에 대한 내용을 찾을 수 없습니다.",
+      good: ":tada: 새로운 우승자 : {winners}! 축하합니다 !",
+      parts: ":warning: 내가 선택할 수없는이 경품 행사에 참가자가 충분하지 않았습니다."
     },
 
     edit: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      argswinners: ":warning: Please indicate the number of winners. Example `1` for one winner or `2` for two winners.",
-      prize: ":warning: Please indicate the prize to be won. Example `a nitro`.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      good: ":tada: I'm in the process of modifying the giveaway with the new parameters. The changes will take effect in 5 seconds.",
-      errmod: ":warning: An error occurred, maybe this giveaway is already finished or deleted ?"
+      perms: ":warning: 당신은 부족 `manage messages` 이 명령 또는 :",
+      msg: ":warning: 경품 ID를 입력하십시오.",
+      argswinners: ":warning:당첨자 수를 표시 해주세요. 예를 들어 1 명의 우승자는 `1` , 2 명의 우승자는 `2` 입니다.",
+      prize: ":warning:당첨 될 상품을 표시 해주세요. 예 `nitro`.",
+      err: ":warning: 이 경품에 대한 내용을 찾을 수 없습니다.",
+      good: ":tada:새로운 매개 변수로 경품을 수정하는 중입니다. 변경 사항은 5 초 후에 적용됩니다.",
+      errmod: ":warning:오류가 발생했습니다.이 경품이 이미 완료되었거나 삭제되었을 수 있습니다?",
     },
 
     lang: {
