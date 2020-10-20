@@ -73,19 +73,19 @@ module.exports = {
     reroll: {
       perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini atau :",
       msg: ":warning: Mohon isikan ID Giveaway.",
-      err: ":warning:  Aku tidak menemukan sesuatu untuk giveaway ini:",
+      err: ":warning:  Aku tidak menemukan sesuatu untuk giveaway ini :",
       good: ":tada: Pemenang Baru : {winners} ! Selamat !",
       parts: ":warning: mereka tidak cukup peserta untuk giveaway itu , saya tidak bisa memilih."
     },
 
     edit: {
-      perms: ":warning: You lack the `manage messages` permission to use this command or the :",
-      msg: ":warning: Please enter a giveaway ID.",
-      argswinners: ":warning: Please indicate the number of winners. Example `1` for one winner or `2` for two winners.",
+      perms: ":warning:Kamu kekuarangan izin `Manage Message` untuk menggunakan perintah ini atau:",
+      msg: ":warning: Mohon isikan ID Giveaway.",
+      argswinners: ":warning: Harap sebutkan jumblah pemenang. Contoh `1` untuk satu pemenang atau `2` untuk 2 pemenang.",
       prize: ":warning: Please indicate the prize to be won. Example `a nitro`.",
-      err: ":warning: I couldn't find anything for this giveaway :",
-      good: ":tada: I'm in the process of modifying the giveaway with the new parameters. The changes will take effect in 5 seconds.",
-      errmod: ":warning: An error occurred, maybe this giveaway is already finished or deleted ?"
+      err: ":warning: Aku tidak menemukan sesuatu untuk giveaway ini :",
+      good: ":tada: Saya sedang dalam proses memodifikasi giveaway dengan parameter baru. Perubahan akan berlaku dalam 5 detik.",
+      errmod: ":warning: Terjadi error, mungkin giveaway ini sudah selesai atau dihapus ?"
     },
 
     lang: {
@@ -96,16 +96,16 @@ module.exports = {
 
     set: {
       perms: ":warning: kamu kekurangan izin `Manage Messages` untuk menggunakan perintah ini.",
-      msg: ":warning: Please indicate a function to be defined `mention` to mention the entire server if a giveaway is running, `logs` to define a room with the giveaway logs, and `role` choose a role so that users who have it can launch giveaways without having permission to manage messages.",
-      args: ":warning: Please indicate a function `on` to activate or `off` to disable.",
-      erroff: ":warning: This function is already disabled. Try turning it on to see ?",
-      erron: ":warning: This function is already activated. Try turning it off to see ?",
-      mon: ":dividers: I have activated the function `everyone` for the next giveaways.",
-      moff: ":dividers: I've disabled the function `everyone` for the next giveaways.",
-      channel: ":warning: Please point me to a text chat room, `#chat` to define the logs.",
-      chon: ":dividers: I set up the giveaways logs on the show :",
-      role: ":warning: Please indicate a role for me, `@role` to define a role.",
-      ron: ":dividers: I defined the alternative role with :",
+      msg: ":warning:Tunjukkan fungsi yang akan didefinisikan `mention` untuk menyebutkan seluruh server jika giveaway sedang berjalan,` logs` untuk menentukan ruangan dengan log giveaway, dan `role` memilih peran sehingga pengguna yang memilikinya dapat meluncurkan giveaway tanpa memiliki izin untuk mengelola pesan.",
+      args: ":warning: Harap tunjukkan fungsi ʻon` untuk diaktifkan atau ʻoff` untuk menonaktifkan.",
+      erroff: ":warning: Fungsi ini sudah dinonaktifkan. Coba nyalakan untuk melihat?",
+      erron: ":warning: Fungsi ini sudah diaktifkan. Coba matikan untuk melihat?",
+      mon: ":dividers: Saya telah mengaktifkan fungsi ʻeveryone` untuk giveaway berikutnya.",
+      moff: ":dividers: Saya telah menonaktifkan fungsi ʻeveryone` untuk giveaway berikutnya.",
+      channel: ":warning: Harap arahkan saya ke ruang obrolan teks, `#chat` untuk menentukan log.",
+      chon: ":dividers: Saya menyiapkan log giveaway di acara itu:",
+      role: ":warning: Tunjukkan peran bagi saya, `@role` untuk menentukan peran.",
+      ron: ":dividers: Saya mendefinisikan peran alternatif dengan:",
     },
 
     logs: {
