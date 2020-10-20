@@ -47,19 +47,19 @@ module.exports = {
       enddescription: (message) => `Perintah Ini Untuk Menghapus Giveaway.\nPenggunaan \`${config.prefix}end <ID giveaway>\`.`,
 
       reroll: (message) => `**${config.prefix}reroll**`,
-      rerolldescription: (message) => `Perintah ini untuk memulai ulang giveaway.\nUsage \`${config.prefix}reroll <ID giveaway>\`.`,
+      rerolldescription: (message) => `Perintah ini untuk memulai ulang giveaway.\nPenggunaan \`${config.prefix}reroll <ID giveaway>\`.`,
 
       edit: (message) => `**${config.prefix}edit**`,
-      editdescription: (message) => `Perintah ini untuk modifikasi Giveaway.\nUsage \`${config.prefix}edit <ID giveaway> <winners> <new lot>\`.`,
+      editdescription: (message) => `Perintah ini untuk modifikasi Giveaway.\Penggunaan \`${config.prefix}edit <ID giveaway> <winners> <new lot>\`.`,
 
       lang: (message) => `**${config.prefix}lang**`,
-      langdescription: (message) => `Perintah ini untuk mengubah bahasa bot.\nUsage \`${config.prefix}lang <fr/en>\`.`,
+      langdescription: (message) => `Perintah ini untuk mengubah bahasa bot.\Penggunaan \`${config.prefix}lang <fr/en>\`.`,
 
       set: (message) => `**${config.prefix}set**`,
-      setdescription: (message) => `Perintah ini untuk modifikasi konfigurasi bot.\nUsage \`${config.prefix}set <mention/logs/role>\`.`,
+      setdescription: (message) => `Perintah ini untuk modifikasi konfigurasi bot.\Penggunaan \`${config.prefix}set <mention/logs/role>\`.`,
     
       invite: (message) => `**${config.prefix}invite**`,
-      invitedescription: (message) => `Perintah ini untuk mendapatkan undangan bot.\nUsage \`${config.prefix}invite\`.`
+      invitedescription: (message) => `Perintah ini untuk mendapatkan undangan bot.\Penggunaan \`${config.prefix}invite\`.`
     },
 
    end: {
@@ -82,7 +82,7 @@ module.exports = {
       perms: ":warning:Kamu kekuarangan izin `Manage Message` untuk menggunakan perintah ini atau:",
       msg: ":warning: Mohon isikan ID Giveaway.",
       argswinners: ":warning: Harap sebutkan jumblah pemenang. Contoh `1` untuk satu pemenang atau `2` untuk 2 pemenang.",
-      prize: ":warning: Please indicate the prize to be won. Example `a nitro`.",
+      prize: ":warning: Harap sebutkan hadiah untuk menang. Contoh `sebuah nitro`.",
       err: ":warning: Aku tidak menemukan sesuatu untuk giveaway ini :",
       good: ":tada: Saya sedang dalam proses memodifikasi giveaway dengan parameter baru. Perubahan akan berlaku dalam 5 detik.",
       errmod: ":warning: Terjadi error, mungkin giveaway ini sudah selesai atau dihapus ?"
